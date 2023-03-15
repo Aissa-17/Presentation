@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi presentación</title>
+</head>
+<body>
+    <style>
+        html{
+            font-size: 62.5%;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+        .item:nth-child(1){
+            background-color: rgb(213, 210, 184);
+            width: 45rem;
+            height: 45rem;
+            border-bottom-left-radius: 5%;
+            border-top-left-radius: 5%;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+        .item:nth-child(2){
+            width: 50rem;
+            height: 45rem;
+            background-color: aliceblue;
+            border-top-right-radius: 5%;
+            border-bottom-right-radius: 5%;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+        .item div{
+            display: flex;
+            justify-content: center;
+            font-size: 2rem;
+            margin: 1.5rem;
+        }
+        .item button{
+            display: block;
+            margin: auto;
+            width: 45rem;
+            height: 3.2rem;
+            margin-top: 5rem;
+            font-size: 2rem;
+            color: white;
+            background-color: black;
+            border-bottom-left-radius: 20px;
+        }
+        .item img{
+            border-top-left-radius: 5%;
+            width: 45rem;
+        }
+    </style>
+    <div class="container">
+        <div class="item">
+            <img src="https://imgs.search.brave.com/8TIu_uiyd-rWrQhA13Ep9hrz56hGz8z3TyW4_3JxQeg/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5W/T29MZHpuc0JDS203/X3lLYnFPLTFnSGFF/SyZwaWQ9QXBp" alt="css">
+            <div>Aissa Allay</div>
+            <div>Estudiante de programación</div>
+            <div>Actualmente estudiando CSS</div>
+            <button>aissa.allay@gmail.com</button>
+        </div>
+        <div class="item">2</div>
+    </div>
+</body>
+</html>
